@@ -1,0 +1,15 @@
+/* Define some utility classes for flexbox */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flex-1 {
+    flex: 1;
+  }
+  
+  .flex-center {
+    align-items: center;
+    justify-content: center;
+  }
+  

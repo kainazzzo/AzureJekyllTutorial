@@ -1,0 +1,19 @@
+# Site settings
+title: Azure Static Web App w/ Jekyll
+description: A simple Jekyll site hosted on Azure Static Web Apps.
+url: https://azure-jekyll-tutorial.datti.net
+baseurl: "" # leave blank unless using a subdirectory
+
+# Sass settings
+sass:
+  sass_dir: assets/sass
+
+# Date format
+date_format: "%B %-d, %Y"
+
+# Exclude files from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - assets/sass
+  - README.md

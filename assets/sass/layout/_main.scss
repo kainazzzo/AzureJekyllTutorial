@@ -1,0 +1,27 @@
+/* Style the main content */
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main>* {
+    flex: 1;
+    margin: 1rem;
+}
+
+aside {
+    background-color: $secondary-color;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 25
+}
+
+h2,
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
+}
